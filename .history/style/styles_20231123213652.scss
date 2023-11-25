@@ -12,7 +12,6 @@
   --color-primary: #191d2d;
   --color-secondary: #d50606;
   --color-white: #FFFFFF;
-  --color-sendBtn: #f8f8f8;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -20,7 +19,6 @@
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
-  --color-submit:#2a2e35;;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3)
@@ -28,18 +26,16 @@
 
 .light-mode{
   --color-primary: rgb(240,231,219);
-  --color-secondary: rgb(80,149,148);
+  --color-secondary: #d50606;
   --color-white: rgb(27,32,47); 
-  --color-sendBtn: (27,32,47); 
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1:rgb(27,32,47);
   --color-grey-2: rgb(27,32,47);
   --color-grey-3: rgb(27,32,47);
-  --color-grey-4:  rgb(240,231,219);
+  --color-grey-4: rgb(135, 152, 172);
   --color-grey-5:  rgb(240,231,219);
   --color-grey-6: #12181b;
-  --color-submit:rgb(240,231,219);
 }
 
 
@@ -413,7 +409,7 @@ i{
 
     .input-control {
 
-      background-color: var(--color-white);
+      background-color: var(--color-grey-5);
       border: none;
       border-radius: 30px;
       font-weight: inherit;
@@ -422,7 +418,7 @@ i{
       padding: .8rem 1.1rem;
       outline: none;
       width: 100%;
-      color: var(--color-primary);
+      color: var(--color-white);
       resize: none;
     }
   }
@@ -433,9 +429,9 @@ i{
         justify-content: flex-start;
         padding: .4rem 2rem;
         border-radius: 20px;
-        border: solid;
-        background-color: var(--color-submit);
-        color: var(--color-sendBtn)
+        border: none;
+        background-color: var(--color-grey-5);
+        color: white;
       }
     
 
